@@ -1,0 +1,12 @@
+B1
+Install-Module -Name ExchangeOnlineManagement
+
+B2
+Install-Module ExchangeOnlineManagement -RequiredVersion 2.0.5 -SkipPublisherCheck
+
+B3
+Install-Module -Name ExchangeOnlineManagement -Force
+
+
+KT KQ 
+Get-InstalledModule -Name ExchangeOnlineManagement
